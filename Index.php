@@ -1,6 +1,21 @@
  <html>
  <head>
  <title>My Website</title>
+<style>
+body{
+     background : orange;
+}
+p {
+
+     background: gray;
+     padding: 2em;
+     text-align: center;
+
+}
+
+
+</style>
+
  </head>
  <body>
      <h1>My Website H1 Title ! </h1>
@@ -18,10 +33,20 @@
 
     <p><?php echo "hello $name" ?></P> 
 
- 
+ <?php
+$me = "my name is ";
+$name = "Roman.";
+
+// echo "<P> "  .$me ';' .$name "</p>"
+
+echo $me . '' .$name;
+
+ echo "$me, $name";
+?>
+
 
 
 
  </body> 
    
- </html>
+ </html
